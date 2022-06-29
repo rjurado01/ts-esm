@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "lib": [ "es6", "es2021", "es2022" ],
-    "module": "ES2022",
+    "lib": [ "es6", "es2021", "dom" ],
+    "module": "CommonJS",
     "target": "ES2021",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "rootDir": "./src",
+    "baseUrl": "./src",
     "outDir": "dist"
   }
 }
